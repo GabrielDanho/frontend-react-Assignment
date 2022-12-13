@@ -1,0 +1,48 @@
+.contact-form {
+    margin-bottom: 60px;
+}
+    
+.contact-form .container {
+    max-width: 1110px;
+}
+
+.contact-form h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+} 
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-form form input {
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid $color-light-gray;
+}
+
+.contact-form form .textarea {
+    grid-column: 1 / -1;
+}
+
+.contact-form form textarea {
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid $color-light-gray;
+    height: 140px;
+    resize: none;
+}
+
+.contact-form form .error {
+    color: $color-theme;
+    border: 1px solid $color-theme;
+}
+
+.contact-form form .errorMessage {
+    margin-top: 5px;
+    color: $color-theme;
+    font-size: 0.8em;
+}

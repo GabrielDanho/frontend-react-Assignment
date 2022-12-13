@@ -1,0 +1,74 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+} 
+
+a {
+  color: $color-theme;
+  text-decoration: none;
+}
+a:hover {
+  color: $color-theme;
+  text-decoration: underline;
+}
+
+.__gradinent-gray {
+  background: $linear-gradient-dark;
+  background: linear-gradient(
+    90deg,$linear-gradient-dark 0%,
+$linear-gradient-light 100%
+  );
+}
+
+.__logo {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.bg-theme {
+  background-color: $color-theme;
+}
+
+.__btn-theme {
+  position: relative;
+  text-align: center;
+  background-color: $color-theme;
+  color: $color-white;
+  padding: 15px 60px;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+.__btn-theme:hover {
+  color: $color-white !important;
+  background-color: $color-dark;
+  text-decoration: none;
+}
+
+.__btn-theme .__btn-theme-left,
+.__btn-theme .__btn-theme-right {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
+
+.__btn-theme .__btn-theme-left {
+  top: 10px;
+  left: 10px;
+  border-left: 1px solid $color-white;
+  border-top: 1px solid $color-white;
+}
+.__btn-theme .__btn-theme-right {
+  bottom: 10px;
+  right: 10px;
+  border-right: 1px solid $color-white;
+  border-bottom: 1px solid $color-white;
+}
+
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: var(--max-width);
+    }
+}   

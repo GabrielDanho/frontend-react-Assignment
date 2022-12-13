@@ -1,0 +1,40 @@
+.customer-info {
+    max-width: 1110px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+.customer-info-box {
+    text-align: center;
+}
+
+.rounded-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 4px $color-shadow;
+    margin: auto;
+}
+
+.rounded-icon:hover {
+    background-color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.rounded-icon:hover i {
+    color: white;
+}
+
+.customer-info-icon {
+    margin-top: 29px;
+}
+
+.customer-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.customer-paragraph {
+    font-size: 16px;
+}

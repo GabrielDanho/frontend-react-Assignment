@@ -1,0 +1,42 @@
+header {
+  margin-bottom: 135px;
+}
+
+._text-bold {
+  font-weight: bold;
+}
+
+._btn-margin {
+  margin-bottom: 50px;
+}
+
+.__showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img._header-image {
+  width: -webkit-fill-available!important;
+}
+
+.__showcase .__img-left {
+  margin-left: -120px;
+}
+
+.__showcase .__img-right {
+  margin-right: -120px;
+}
+
+.__showcase .__showcase-body {
+  text-align: center;
+}
+.__showcase .__showcase-body h1 {
+  font-size: 65px;
+  font-weight: 800;
+}
+.__showcase .__showcase-body p {
+  margin-top: 50px;
+  margin-bottom: 35px;
+  font-size: 20px;
+}

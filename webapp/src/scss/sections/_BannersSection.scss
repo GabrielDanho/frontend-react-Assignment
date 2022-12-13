@@ -1,0 +1,68 @@
+.banner-section-background-one {
+    background-color: #75695C;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    height: 20rem;
+    text-align: left;
+    margin-right: 7px;
+    color: white;
+}
+
+.banner-section-background-two {
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+    margin-left: 7px;
+}
+
+.banner-section-background-one >*{
+    margin: auto;
+}
+.banner-section-background-two >*{
+    margin: auto;
+}
+
+.btnBanner-theme {
+    position: relative;
+    top: 20px;
+    width: 50%;
+    text-align: center;
+    background-color:black;
+    color: $color-white;
+    padding: 20px 50px;
+    transition: all 0.1s ease-in-out;
+
+    .corner-left {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 10px;
+        left: 10px;
+        border-left: 1px solid $color-white;
+        border-top: 1px solid $color-white;
+    }
+    .corner-right {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        bottom: 10px;
+        right: 10px;
+        border-right: 1px solid $color-white;
+        border-bottom: 1px solid $color-white;
+    }
+
+    &:hover {
+        color: black !important;
+        background-color: white;
+        text-decoration: none;
+        .corner-right {
+            border-right: 1px solid black;
+            border-bottom: 1px solid Black;
+        }
+        .corner-left {
+            border-left: 1px solid black;
+            border-top: 1px solid Black;
+        }
+    }
+}
